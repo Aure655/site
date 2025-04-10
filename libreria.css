@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    background-color:rgb(255, 255, 255);
+    flex-wrap:wrap;
+
+}
+.home{
+    flex-wrap:wrap;
+}
+.menu{
+    list-style:none;
+    background-color:#fff7e5;
+    padding: 20px;
+
+}
+.menu li {
+    position:relative;
+    display: inline-block;
+
+}
+.menu li:hover ul {
+    display:block;
+}
+
+a {
+    text-decoration: none;
+    background-color: #f5a3af;
+    color: #ffffff;
+}
+.menu ul {
+    display:none;
+    position: absolute;
+    top: 100%;
+    left:0;
+    background-color:#faebd7;   
+}
+
+.menu ul li a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+    
+
+}
+
+.menu li a {
+    text-decoration: none;
+    padding:10px;
+}
+.nav_type{
+    background-color:#f89fa1;
+    text-align: center;
+}
+.barrabusq{
+    display: flex;
+    align-items:center;
+    margin-right: -300px;
+    margin-left: 1000px;
+
+}
+.container{
+    display: flex;
+flex-direction: row;
+flex-wrap:wrap;
+height:auto;
+
+}
+img{
+    max-width:50%;
+    position:center;
+}
+figure{
+    text-align: center;
+   margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    float:left;
+    width: 350px;
+    background-color:#faebd7;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+button.in {
+    background: linear-gradient(to right,#f5a3af, #f5a3af);
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+}
+figure:hover{
+    transform: translateY(-5px); 
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.item {
+text-align: center;
+padding: 10px;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.19);
+background-color:#fecdd0;
+}
+
+.popul{
+    height: 225px;
+}
+
+.body{
+    background-color: #f89fa1;
+}
+h1{
+    text-align: center;
+    background-color: #f89fa1;
+}
+
+.ciencia{
+    text-align: center;
+    background-color: #f89fa1;
+}
+.target{
+    transform: 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.nav_type {
+    text-align: center;
+    background-color: #f89fa1;
+    margin-left: 500px;
+}
+
+.logo{
+    width:75px;
+    margin-left: auto;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    figure {
+        width: 45%;
+    }
+
+    .pie h2, .info-prod h4 {
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 1025px) {
+    .container {
+        justify-content: space-between;
+    }
+
+    figure {
+        width: 30%;
+    }
+}

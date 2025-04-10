@@ -1,0 +1,50 @@
+
+*{
+    background-color:#c0a056;
+    
+}
+.nav_type{
+    background-color:#f89fa1;
+    text-align: center;
+}
+
+
+.contenedor{
+    text-align:center ;
+}
+    
+.im{
+    width:200px;
+}
+.ima{
+    width:400px;
+}
+.imagen{
+    width:600px;
+}
+.imagene{
+    width:500px;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    figure {
+        width: 45%;
+    }
+
+    .pie h2, .info-prod h4 {
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 1025px) {
+    .container {
+        justify-content: space-between;
+    }
+
+    figure {
+        width: 30%;
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../Css/inicio.css"/> 
+    <link rel="icon" href="../Html/Logo/logo.jpg">
+    <button class="in" type="submit"><a href="try.index.html" target="_blank">Devuelta a pagina principal</a></button>
+    </head>
+    <body>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gidole&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="../Css/inicio.css"/>
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <div 
+              <div class="container">
+                <script src="../Javascript/inicio.js"></script>
+                
+        <div class="box active" id="login-box">
+            <h2>Iniciar Sesión</h2>
+            <form class="form-container">
+                <input type="text" placeholder="Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+                <button type="submit">Ingresar</button>
+            </form>
+            <div class="register-link">
+                ¿No tienes cuenta?<a onclick="showRegister()">Regístrate aquí</a>
+            </div>
+        </div>
+        
+        <!-- Formulario de Registro -->
+        <div class="box" id="register-box">
+            <h2>Registro</h2>
+            <form class="form-container">
+                <input type="text" placeholder="Nombre Completo" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <input type="text" placeholder="Nombre de Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+                <input type="password" placeholder="Confirmar Contraseña" required>
+                <button type="submit">Registrarse</button>
+            </form>
+            <div class="register-link">
+                ¿Ya tienes cuenta? <a onclick="showLogin()">Inicia sesión aquí</a>
+            </div>
+        </div>
+        </body>

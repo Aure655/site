@@ -1,0 +1,123 @@
+body {
+    font-family: 'Cinzel', serif;
+    background: url("../Html/Imagenes/j.avif");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #000000;
+    flex-direction: column;
+}
+.box {
+    background:rgb(255, 247, 229);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 350px;
+    border: 2px solid#000000;
+    display: none;
+}
+.active {
+    display: block;
+}
+.hidden{
+display: none;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #000000;
+    text-transform: uppercase;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px;
+    background:rgb(254, 205, 208);
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+}
+input::placeholder {
+    color: #000000;
+}
+button {
+    background: linear-gradient(to right,#f5a3af, #f5a3af);
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+button:hover {
+    background: linear-gradient(to right, #000000, #000000);
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+.register-link {
+    margin-top: 15px;
+    color: #000000;
+}
+.register-link a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.register-link a:hover {
+    color: #e0e0e0;
+}
+button.in {
+    background: linear-gradient(to right,#f5a3af, #f5a3af);
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    width: 15%;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: #f5a3af;
+    color: #ffffff;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    figure {
+        width: 45%;
+    }
+
+    .pie h2, .info-prod h4 {
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 1025px) {
+    .container {
+        justify-content: space-between;
+    }
+
+    figure {
+        width: 30%;
+    }
+}

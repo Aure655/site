@@ -1,0 +1,88 @@
+figure{
+    text-align: center;
+   margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    float:left;
+    width: 400px;
+    background-color:antiquewhite;
+}
+h1{
+    text-align: center;
+    background-color: #f8afb8;
+}
+img{
+    max-width:100%;
+    align-items: center;
+}
+.text_i{
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.19);
+    }
+    .personaje{
+        max-width: 500;
+    }
+    body{
+        background-color:#fecdd0;
+    }
+    
+    
+    figure{
+        text-align: center;
+       margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+        float:left;
+        width: 400px;
+        background-color:antiquewhite;
+    }
+    h1{
+        text-align: center;
+        background-color: #f8afb8;
+    }
+    img{
+        max-width:100%;
+        align-items: center;
+    }
+    .text_i{
+        text-align: center;
+        padding: 10px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.19);
+        }
+        .personaje{
+            max-width: 500;
+        }
+        body{
+            background-color:#fecdd0;
+        }
+        .Rating{
+            text-align: center;
+       margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+        float:left;
+        width: 300px;
+        background-color:antiquewhite;
+        
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .container {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    
+        figure {
+            width: 45%;
+        }
+    
+        .pie h2, .info-prod h4 {
+            font-size: 1.1rem;
+        }
+    }
+    @media (min-width: 1025px) {
+        .container {
+            justify-content: space-between;
+        }
+    
+        figure {
+            width: 30%;
+        }
+    }
